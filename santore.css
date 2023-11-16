@@ -15,12 +15,16 @@
     background-color: blue;
     height: 100%;
     position: relative;
+    overflow: hidden;
 }
 
 .carouselTrack{
     padding: 0;
     margin: 0;
     list-style: none;
+    position: relative;
+    height: 100%;
+    transition: transform 250ms ease-in;
 }
 
 .carouselSlide{
@@ -54,19 +58,19 @@
 }
 
 .carouselButtonLeft img{
-    width: 4px;
+    width: 40px;
 
 }
 
 .carouselButtonRight img{
-    width: 4px;
+    width: 40px;
 
 } 
 
 .carouselNav{
     display: flex;
     justify-content: center;
-    padding: 10px 0
+    padding: 10px 0;
 }
 
 .carouselBlip{
@@ -77,8 +81,13 @@
     background: black;
     margin: 0 12px;
     opacity: 0.3;
+    cursor: pointer;
 }
 
 .carouselBlip.currentSlide{
 opacity: 0.75;
+}
+
+.is-hidden{
+    display: none;
 }
