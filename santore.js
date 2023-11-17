@@ -71,7 +71,7 @@ dotsNav.addEventListener('click', e => {
         prevButton.classList.remove('is-hidden');
         nextButton.classList.add('is-hidden');
     } else {
-        prevButton.classList.remove('.is-hidden');
-        nextButton.classList.remove('.is-hidden');
+        prevButton.classList.remove('is-hidden');
+        nextButton.classList.remove('is-hidden');
     }
 })
