@@ -12,7 +12,6 @@
 }
 
 .carouselTrackContainer{
-    background-color: blue;
     height: 100%;
     position: relative;
     overflow: hidden;
@@ -53,8 +52,7 @@
 }
 
 .carouselButtonRight{
-    right: -50px;
-    background-color: red;
+    right: -10px;
 }
 
 .carouselButtonLeft img{
